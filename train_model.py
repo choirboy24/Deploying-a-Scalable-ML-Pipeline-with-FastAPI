@@ -25,12 +25,9 @@ data = pd.read_csv(data_path)
 # kf = KFold(n_splits=5)
 
 train, test = train_test_split(data, test_size=0.2, random_state=42)
-'''
-for train_index, test_index in kf.split(data):
-    train = data.iloc[train_index]
-    test = data.iloc[test_index]
-'''
-    
+train = pd.DataFrame(train, columns=data.columns)
+test = pd.DataFrame(test, columns=data.columns)
+
 # DO NOT MODIFY
 cat_features = [
     "workclass",
@@ -93,11 +90,11 @@ for col in cat_features:
             test, 
             col, 
             slicevalue, 
-            cat_features, 
-            "salary", 
-            encoder, 
-            lb, 
-            model
+            categorical_features=cat_features, 
+            label="salary", 
+            encoder=encoder, 
+            lb=lb, 
+            model=model
             )
             # your code here
             # use test, col and slicevalue as part of the input

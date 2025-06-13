@@ -27,9 +27,7 @@ def train_model(X_train, y_train):
     """
     # TODO: implement the function
 
-    model = Pipeline(steps=[
-        ('model', RandomForestClassifier()),
-    ])
+    model = RandomForestClassifier()
 
     model.fit(X_train, y_train)
 
@@ -99,6 +97,7 @@ def load_model(path):
     # TODO: implement the function
     with open(path, 'rb') as f:
         return pickle.load(f)
+    return model
 
 
 def performance_on_categorical_slice(

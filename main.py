@@ -1,7 +1,7 @@
 import os
 
 import pandas as pd
-from fastapi import FastAPI
+from fastapi import FastAPI, APIRouter
 from pydantic import BaseModel, Field
 
 from ml.data import apply_label, process_data
@@ -78,7 +78,7 @@ def post_inference(data: Data):
         encoder = encoder
         # label=None to indicate that we are not training but inferring
     )
-    _inference = inference(model, data_processed) # your code here to predict the result using data_processed
-    result = apply_label(_inference)  # your code here to apply label to the inference result
+    inference_result = inference(model, data_processed) # your code here to predict the result using data_processed
+    result = apply_label(inference_result)  # your code here to apply label to the inference result
 
     return {"result": result}
