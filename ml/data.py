@@ -43,15 +43,14 @@ def process_data(
         Trained LabelBinarizer if training is True, otherwise returns the binarizer
         passed in.
     """
+    X_categorical = X[categorical_features].values
+    X_continuous = X.drop(*[categorical_features], axis=1)
 
     if label is not None:
         y = X[label]
         X = X.drop([label], axis=1)
     else:
         y = np.array([])
-
-    X_categorical = X[categorical_features].values
-    X_continuous = X.drop(*[categorical_features], axis=1)
 
     if training is True:
         encoder = OneHotEncoder(sparse_output=False, handle_unknown="ignore")
