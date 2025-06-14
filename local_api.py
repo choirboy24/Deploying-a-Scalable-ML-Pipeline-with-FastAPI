@@ -1,12 +1,9 @@
-import json
-
 import requests
-from main import app
 
 url = 'http://127.0.0.1:8000'
 
 # TODO: send a GET using the URL http://127.0.0.1:8000
-r = requests.get(url = url) # Your code here
+r = requests.get(url=url)
 
 # TODO: print the status code
 print(f'Status Code: {r.status_code}')
@@ -31,11 +28,11 @@ local_data = {
     "native-country": "United-States",
 }
 
-# TODO: send a POST using the data above
-r2 = requests.post("http://127.0.0.1:8000/data/", json = local_data) # Your code here
-# TODO: print the status code
+# Send a POST using the data above
+r2 = requests.post("http://127.0.0.1:8000/data/", json=local_data)
+# Print the status code
 print(f'Status Code: {r2.status_code}')
-# TODO: print the result
+# Print the result
 if r2.status_code == 200:
     results = list(r2.json().values())
     print(f'Results: {results[0]}')
