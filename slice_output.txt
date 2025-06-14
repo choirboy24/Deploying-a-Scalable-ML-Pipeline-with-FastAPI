@@ -1186,3 +1186,201 @@ native-country: Vietnam, Count: 5
 Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
 native-country: Yugoslavia, Count: 2
 Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+workclass: ?, Count: 389
+Prec: 0.4286 | Recall: 0.6923 | F1: 0.5294
+workclass: Federal-gov, Count: 191
+Prec: 0.7571 | Recall: 0.7794 | F1: 0.7681
+workclass: Local-gov, Count: 387
+Prec: 0.7091 | Recall: 0.7647 | F1: 0.7358
+workclass: Private, Count: 4,578
+Prec: 0.6414 | Recall: 0.7431 | F1: 0.6885
+workclass: Self-emp-inc, Count: 212
+Prec: 0.7542 | Recall: 0.7876 | F1: 0.7706
+workclass: Self-emp-not-inc, Count: 498
+Prec: 0.4968 | Recall: 0.6964 | F1: 0.5799
+workclass: State-gov, Count: 254
+Prec: 0.6438 | Recall: 0.7231 | F1: 0.6812
+workclass: Without-pay, Count: 4
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+education: 10th, Count: 183
+Prec: 0.1667 | Recall: 0.2857 | F1: 0.2105
+education: 11th, Count: 225
+Prec: 0.2727 | Recall: 1.0000 | F1: 0.4286
+education: 12th, Count: 98
+Prec: 0.4000 | Recall: 1.0000 | F1: 0.5714
+education: 1st-4th, Count: 23
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+education: 5th-6th, Count: 62
+Prec: 0.5000 | Recall: 1.0000 | F1: 0.6667
+education: 7th-8th, Count: 141
+Prec: 0.1667 | Recall: 1.0000 | F1: 0.2857
+education: 9th, Count: 115
+Prec: 0.3333 | Recall: 1.0000 | F1: 0.5000
+education: Assoc-acdm, Count: 198
+Prec: 0.5957 | Recall: 0.7000 | F1: 0.6437
+education: Assoc-voc, Count: 273
+Prec: 0.5397 | Recall: 0.6939 | F1: 0.6071
+education: Bachelors, Count: 1,053
+Prec: 0.7200 | Recall: 0.7588 | F1: 0.7389
+education: Doctorate, Count: 77
+Prec: 0.9123 | Recall: 0.8525 | F1: 0.8814
+education: HS-grad, Count: 2,085
+Prec: 0.4435 | Recall: 0.6623 | F1: 0.5312
+education: Masters, Count: 369
+Prec: 0.8502 | Recall: 0.8263 | F1: 0.8381
+education: Preschool, Count: 10
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+education: Prof-school, Count: 116
+Prec: 0.8929 | Recall: 0.8242 | F1: 0.8571
+education: Some-college, Count: 1,485
+Prec: 0.5487 | Recall: 0.6847 | F1: 0.6092
+marital-status: Divorced, Count: 920
+Prec: 0.3786 | Recall: 0.7800 | F1: 0.5098
+marital-status: Married-AF-spouse, Count: 4
+Prec: 0.0000 | Recall: 1.0000 | F1: 0.0000
+marital-status: Married-civ-spouse, Count: 2,950
+Prec: 0.6900 | Recall: 0.7382 | F1: 0.7133
+marital-status: Married-spouse-absent, Count: 96
+Prec: 0.2500 | Recall: 1.0000 | F1: 0.4000
+marital-status: Never-married, Count: 2,126
+Prec: 0.4369 | Recall: 0.7895 | F1: 0.5625
+marital-status: Separated, Count: 209
+Prec: 0.4211 | Recall: 1.0000 | F1: 0.5926
+marital-status: Widowed, Count: 208
+Prec: 0.1579 | Recall: 1.0000 | F1: 0.2727
+occupation: ?, Count: 389
+Prec: 0.4286 | Recall: 0.6923 | F1: 0.5294
+occupation: Adm-clerical, Count: 726
+Prec: 0.5000 | Recall: 0.6761 | F1: 0.5749
+occupation: Armed-Forces, Count: 3
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+occupation: Craft-repair, Count: 821
+Prec: 0.5028 | Recall: 0.7000 | F1: 0.5852
+occupation: Exec-managerial, Count: 838
+Prec: 0.7380 | Recall: 0.7919 | F1: 0.7640
+occupation: Farming-fishing, Count: 193
+Prec: 0.2143 | Recall: 0.5000 | F1: 0.3000
+occupation: Handlers-cleaners, Count: 273
+Prec: 0.3333 | Recall: 0.5714 | F1: 0.4211
+occupation: Machine-op-inspct, Count: 378
+Prec: 0.4255 | Recall: 0.5556 | F1: 0.4819
+occupation: Other-service, Count: 667
+Prec: 0.1923 | Recall: 0.8333 | F1: 0.3125
+occupation: Priv-house-serv, Count: 26
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+occupation: Prof-specialty, Count: 828
+Prec: 0.7628 | Recall: 0.7807 | F1: 0.7716
+occupation: Protective-serv, Count: 136
+Prec: 0.5476 | Recall: 0.7188 | F1: 0.6216
+occupation: Sales, Count: 729
+Prec: 0.6979 | Recall: 0.7403 | F1: 0.7185
+occupation: Tech-support, Count: 189
+Prec: 0.6667 | Recall: 0.7234 | F1: 0.6939
+occupation: Transport-moving, Count: 317
+Prec: 0.4531 | Recall: 0.6042 | F1: 0.5179
+relationship: Husband, Count: 2,590
+Prec: 0.6932 | Recall: 0.7413 | F1: 0.7164
+relationship: Not-in-family, Count: 1,702
+Prec: 0.4202 | Recall: 0.8061 | F1: 0.5524
+relationship: Other-relative, Count: 178
+Prec: 0.3750 | Recall: 0.7500 | F1: 0.5000
+relationship: Own-child, Count: 1,019
+Prec: 0.1765 | Recall: 1.0000 | F1: 0.3000
+relationship: Unmarried, Count: 702
+Prec: 0.2889 | Recall: 0.8125 | F1: 0.4262
+relationship: Wife, Count: 322
+Prec: 0.6713 | Recall: 0.7111 | F1: 0.6906
+race: Amer-Indian-Eskimo, Count: 71
+Prec: 0.6000 | Recall: 0.6000 | F1: 0.6000
+race: Asian-Pac-Islander, Count: 193
+Prec: 0.6774 | Recall: 0.7368 | F1: 0.7059
+race: Black, Count: 599
+Prec: 0.5692 | Recall: 0.7400 | F1: 0.6435
+race: Other, Count: 55
+Prec: 0.6667 | Recall: 1.0000 | F1: 0.8000
+race: White, Count: 5,595
+Prec: 0.6415 | Recall: 0.7453 | F1: 0.6895
+sex: Female, Count: 2,126
+Prec: 0.4979 | Recall: 0.7117 | F1: 0.5859
+sex: Male, Count: 4,387
+Prec: 0.6644 | Recall: 0.7489 | F1: 0.7042
+native-country: ?, Count: 125
+Prec: 0.7097 | Recall: 0.7586 | F1: 0.7333
+native-country: Cambodia, Count: 3
+Prec: 0.0000 | Recall: 1.0000 | F1: 0.0000
+native-country: Canada, Count: 22
+Prec: 0.6250 | Recall: 0.8333 | F1: 0.7143
+native-country: China, Count: 18
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Columbia, Count: 6
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Cuba, Count: 19
+Prec: 0.8000 | Recall: 0.6667 | F1: 0.7273
+native-country: Dominican-Republic, Count: 8
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Ecuador, Count: 5
+Prec: 0.5000 | Recall: 1.0000 | F1: 0.6667
+native-country: El-Salvador, Count: 20
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: England, Count: 14
+Prec: 0.5000 | Recall: 0.6667 | F1: 0.5714
+native-country: France, Count: 5
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Germany, Count: 32
+Prec: 0.7692 | Recall: 0.7692 | F1: 0.7692
+native-country: Greece, Count: 7
+Prec: 0.0000 | Recall: 1.0000 | F1: 0.0000
+native-country: Guatemala, Count: 13
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Haiti, Count: 6
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Honduras, Count: 4
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Hong, Count: 8
+Prec: 1.0000 | Recall: 0.5000 | F1: 0.6667
+native-country: Hungary, Count: 3
+Prec: 0.5000 | Recall: 1.0000 | F1: 0.6667
+native-country: India, Count: 21
+Prec: 0.7500 | Recall: 0.7500 | F1: 0.7500
+native-country: Iran, Count: 12
+Prec: 0.2000 | Recall: 0.3333 | F1: 0.2500
+native-country: Ireland, Count: 5
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Italy, Count: 14
+Prec: 0.7500 | Recall: 0.7500 | F1: 0.7500
+native-country: Jamaica, Count: 13
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Japan, Count: 11
+Prec: 0.7500 | Recall: 0.7500 | F1: 0.7500
+native-country: Laos, Count: 4
+Prec: 0.0000 | Recall: 1.0000 | F1: 0.0000
+native-country: Mexico, Count: 114
+Prec: 0.3333 | Recall: 1.0000 | F1: 0.5000
+native-country: Nicaragua, Count: 7
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Peru, Count: 5
+Prec: 0.0000 | Recall: 0.0000 | F1: 0.0000
+native-country: Philippines, Count: 35
+Prec: 0.6875 | Recall: 1.0000 | F1: 0.8148
+native-country: Poland, Count: 14
+Prec: 1.0000 | Recall: 0.6667 | F1: 0.8000
+native-country: Portugal, Count: 6
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Puerto-Rico, Count: 22
+Prec: 0.8333 | Recall: 0.8333 | F1: 0.8333
+native-country: Scotland, Count: 3
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: South, Count: 13
+Prec: 0.5000 | Recall: 0.2500 | F1: 0.3333
+native-country: Taiwan, Count: 11
+Prec: 0.7500 | Recall: 0.7500 | F1: 0.7500
+native-country: Thailand, Count: 5
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Trinadad&Tobago, Count: 3
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: United-States, Count: 5,870
+Prec: 0.6355 | Recall: 0.7421 | F1: 0.6847
+native-country: Vietnam, Count: 5
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Yugoslavia, Count: 2
+Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000
